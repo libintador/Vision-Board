@@ -1,0 +1,98 @@
+/*Vision Board Project Stylesheet*/
+
+
+/* -------- Color Palette --------------
+
+#FFF44F: Yellow | used for titles
+#FFFFFF: White | used for area backgrounds
+#E8E8E8: Light Gray | used for border
+#3B3B3B: Dark Gray | used for area background
+
+*/
+
+
+/* ----------- Fonts -------------------
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Permanent Marker', cursive;
+Sizes: small = 12px | medium = 24px | large = 48px
+Sizes: 20px | 30px | 38px
+
+*/
+
+
+/* ------- Base -----------------*/
+
+body {
+    background: #E8E8E8;
+}
+
+#vision-board {
+    background: url('../img/background.png');
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    height: 850px;
+    margin: 50px auto;
+    overflow: auto;
+    text-transform: uppercase;
+    width: 1200px;
+}
+
+.block {
+    box-sizing: border-box;
+    float: left;
+    width: 400px;
+}
+
+.small-block {
+    height: 210px;
+    padding: 20px 40px;
+}
+
+.large-block {
+    height: 430px;
+    padding: 70px 40px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.light-bg {
+    background: #FFFFFF;
+}
+
+.dark-bg {
+    background: #3B3B3B;
+    color: #FFFFFF;
+}
+
+.title {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.highlight {
+    background: #FFF44F;
+    font-size: 18px;
+    padding: 5px 15px;
+}
+
+strong {
+    font-size: 38px;
+    text-transform: none;
+}
+
+.marker {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.top-padding {
+    padding-top: 40px;
+}
